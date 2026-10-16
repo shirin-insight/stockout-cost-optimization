@@ -1,0 +1,9 @@
+Pipeline executed locally. See policy_summary.csv and product_policy_summary.csv for generated metrics.
+
+Validation passed.
+Demand rows: 17,520; products: 24; policy-SKU rows: 72
+             policy  service_level  lost_units  average_on_hand_units  holding_cost_proxy  estimated_lost_sales_cost  combined_cost_proxy  orders_placed
+           baseline          0.997        1257                108.001           32065.470                  23008.653            55074.123           2312
+higher_safety_stock          1.000         178                129.229           38388.343                   3079.809            41468.152           2313
+     lean_inventory          0.982        6479                 91.457           27130.691                 125532.320           152663.011           2268
+Outputs written to: /mnt/data/shirin-insight-stockout-lab/outputs
